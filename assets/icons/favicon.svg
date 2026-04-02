@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title>He Hao favicon</title>
+  <defs>
+    <style>
+      .teal {
+        stroke: #0f766e;
+      }
+      .blue {
+        stroke: #38bdf8;
+      }
+      .stroke {
+        fill: none;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 5;
+      }
+    </style>
+  </defs>
+  <path class="stroke teal" d="M10 46V18M10 32H24M24 18V46" />
+  <path class="stroke teal" d="M40 18V46M40 32H54M54 26V46" />
+  <path class="stroke teal" d="M10 46L32 32" />
+  <path class="stroke blue" d="M32 32L54 26L60 14" />
+  <path class="stroke blue" d="M56 12L60 14L58 19" />
+  <circle cx="10" cy="46" r="3.5" fill="#0f766e" />
+  <circle cx="32" cy="32" r="4" fill="#0f766e" />
+</svg>
