@@ -3,12 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>He Hao | 郝赫 | Haohe | HAOHE | Official Identity</title>
+    <title>Official Website | He Hao</title>
     <meta
       name="description"
-      content="Official identity page for He Hao (郝赫, Haohe, HAOHE, He HAO), with primary links to haohe.me, publications, projects, writing, resume, and official profiles."
+      content="Lightweight helper page pointing to the main official website of He Hao at haohe.me."
     />
-    <link rel="canonical" href="https://haohe123.github.io/" />
+    <meta name="robots" content="noindex,follow" />
+    <meta name="google-site-verification" content="L8EqJIsNaoti4bHvs6WH1PGqF6O_YOvLPhKZBJMbGpY" />
+    <link rel="canonical" href="https://haohe.me/" />
     <link rel="icon" type="image/svg+xml" href="/assets/icons/favicon.svg" />
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32.png" />
@@ -16,186 +18,255 @@
     <link rel="manifest" href="/site.webmanifest" />
     <meta property="og:site_name" content="He Hao" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="He Hao | 郝赫 | Haohe | HAOHE | Official Identity" />
-    <meta property="og:description" content="Official identity page for He Hao, with direct entry points to haohe.me, publications, projects, writing, resume, and official profiles." />
-    <meta property="og:url" content="https://haohe123.github.io/" />
-    <meta property="og:image" content="https://haohe123.github.io/assets/icons/favicon-512.png" />
+    <meta property="og:title" content="Official Website | He Hao" />
+    <meta
+      property="og:description"
+      content="Lightweight helper page pointing to the main official website of He Hao at haohe.me."
+    />
+    <meta property="og:url" content="https://haohe.me/" />
+    <meta property="og:image" content="https://haohe.me/assets/images/og-default.svg" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="He Hao | 郝赫 | Haohe | HAOHE | Official Identity" />
-    <meta name="twitter:description" content="Official identity page for He Hao, with direct entry points to haohe.me and official public profiles." />
-    <meta name="twitter:image" content="https://haohe123.github.io/assets/icons/favicon-512.png" />
-    <meta name="google-site-verification" content="L8EqJIsNaoti4bHvs6WH1PGqF6O_YOvLPhKZBJMbGpY" />
-    <link rel="stylesheet" href="/styles.css" />
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "ProfilePage",
-        "@id": "https://haohe123.github.io/#page",
-        "url": "https://haohe123.github.io/",
-        "name": "He Hao | 郝赫 | Haohe | HAOHE",
-        "description": "Official identity page for He Hao with supported name variants, official profile handles, and primary links to haohe.me.",
-        "mainEntity": {
-          "@type": "Person",
-          "@id": "https://haohe.me/#person",
-          "name": "He Hao",
-          "alternateName": ["郝赫", "Haohe", "HAOHE", "He HAO", "HeHao"],
-          "description": "Autonomous Systems Engineer and Optimization Researcher working across distributed optimization, autonomous systems, deployable AI platforms, publications, and technical writing.",
-          "url": "https://haohe.me/",
-          "sameAs": [
-            "https://haohe.me/",
-            "https://haohe.me/about/",
-            "https://haohe.me/projects/",
-            "https://haohe.me/publications/",
-            "https://haohe.me/writing/",
-            "https://haohe.me/resume/",
-            "https://github.com/HAOHE123",
-            "https://linkedin.com/in/hehao123/",
-            "https://kaggle.com/hehao111",
-            "https://scholar.google.com/citations?user=3sP1AOAAAAAJ"
-          ],
-          "identifier": [
-            { "@type": "PropertyValue", "name": "GitHub", "value": "HAOHE123" },
-            { "@type": "PropertyValue", "name": "LinkedIn", "value": "hehao123" },
-            { "@type": "PropertyValue", "name": "Kaggle", "value": "hehao111" }
-          ],
-          "jobTitle": "Autonomous Systems Engineer and Optimization Researcher",
-          "worksFor": { "@type": "Organization", "name": "SeaPower" },
-          "alumniOf": [
-            { "@type": "CollegeOrUniversity", "name": "Instituto Superior Técnico" },
-            { "@type": "CollegeOrUniversity", "name": "University of Macau" }
-          ],
-          "knowsAbout": [
-            "Distributed optimization",
-            "Nonlinear optimization",
-            "Autonomous systems",
-            "Multi-agent systems",
-            "Computer vision platforms",
-            "Applied machine learning",
-            "Technical writing",
-            "Scientific computing"
-          ]
+    <meta name="twitter:title" content="Official Website | He Hao" />
+    <meta
+      name="twitter:description"
+      content="Lightweight helper page pointing to the main official website of He Hao at haohe.me."
+    />
+    <meta name="twitter:image" content="https://haohe.me/assets/images/og-default.svg" />
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #f5f7f8;
+        --panel: #ffffff;
+        --border: #d7dee3;
+        --text: #161b22;
+        --muted: #5d6975;
+        --accent-soft: #ecfeff;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        font-family: "Inter", "Segoe UI", sans-serif;
+        background: linear-gradient(180deg, #f7fafb 0%, #eef3f5 100%);
+        color: var(--text);
+      }
+
+      main {
+        width: min(880px, calc(100vw - 32px));
+        margin: 48px auto;
+        background: var(--panel);
+        border: 1px solid var(--border);
+        border-radius: 24px;
+        padding: 32px;
+        box-shadow: 0 16px 40px rgba(15, 23, 42, 0.08);
+      }
+
+      .eyebrow {
+        font-size: 0.72rem;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+        color: var(--muted);
+        margin: 0 0 16px;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: clamp(2rem, 4vw, 3.2rem);
+        line-height: 1.05;
+      }
+
+      .dek {
+        margin: 16px 0 0;
+        color: var(--muted);
+        font-size: 1rem;
+        line-height: 1.8;
+        max-width: 58ch;
+      }
+
+      .actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin: 28px 0 0;
+      }
+
+      .button,
+      .link-card {
+        text-decoration: none;
+      }
+
+      .button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 44px;
+        padding: 0 18px;
+        border-radius: 999px;
+        border: 1px solid transparent;
+        font-weight: 600;
+      }
+
+      .button.primary {
+        background: var(--text);
+        color: white;
+      }
+
+      .button.secondary {
+        background: white;
+        border-color: var(--border);
+        color: var(--text);
+      }
+
+      section {
+        margin-top: 32px;
+        padding-top: 24px;
+        border-top: 1px solid var(--border);
+      }
+
+      section h2 {
+        margin: 0 0 12px;
+        font-size: 0.92rem;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: var(--muted);
+      }
+
+      section p {
+        margin: 0;
+        color: var(--muted);
+        line-height: 1.85;
+      }
+
+      .grid {
+        display: grid;
+        gap: 14px;
+        margin-top: 18px;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      }
+
+      .link-card {
+        display: block;
+        border: 1px solid var(--border);
+        border-radius: 18px;
+        padding: 18px;
+        color: inherit;
+        background: white;
+      }
+
+      .link-card small {
+        display: block;
+        margin-bottom: 8px;
+        color: var(--muted);
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+      }
+
+      .link-card strong {
+        display: block;
+        margin-bottom: 6px;
+        font-size: 1rem;
+      }
+
+      .link-card span {
+        color: var(--muted);
+        line-height: 1.6;
+        font-size: 0.94rem;
+      }
+
+      .notice {
+        margin-top: 18px;
+        padding: 16px 18px;
+        border-radius: 18px;
+        background: var(--accent-soft);
+        color: #134e4a;
+        border: 1px solid #b9eef2;
+      }
+
+      @media (max-width: 640px) {
+        main {
+          padding: 24px;
+          margin: 20px auto;
+          border-radius: 18px;
         }
       }
-    </script>
+    </style>
   </head>
   <body>
-    <main class="page-shell">
-      <section class="hero-row">
-        <div>
-          <h1 class="name">He Hao</h1>
-          <p class="title-line">Official identity page · 郝赫 · Haohe · HAOHE · He HAO</p>
-          <div class="meta-line">
-            <span>Lisbon, Portugal</span>
-            <span class="dot">·</span>
-            <a href="mailto:hao.he@aliyun.com">hao.he@aliyun.com</a>
-          </div>
-        </div>
-        <a class="primary-cta" href="https://haohe.me/">Official website: haohe.me</a>
-      </section>
+    <main>
+      <p class="eyebrow">Official Link Page</p>
+      <h1>He Hao</h1>
+      <p class="dek">
+        This helper page stays online for direct visitors, but the main official website, portfolio,
+        publications, writing, and project archive all live at <strong>haohe.me</strong>.
+      </p>
 
-      <div class="rule"></div>
+      <div class="actions">
+        <a class="button primary" href="https://haohe.me/">Go to haohe.me</a>
+        <a class="button secondary" href="https://haohe.me/about/">About</a>
+        <a class="button secondary" href="https://haohe.me/projects/">Projects</a>
+      </div>
 
-      <section class="section-block">
-        <h2 class="section-label">Official Identity</h2>
-        <p class="body-copy">
-          This page is a lightweight identity and alias entry point for He Hao. If you searched for He Hao,
-          郝赫, Haohe, HAOHE, He HAO, HAOHE123, hehao123, or hehao111, the main portfolio and full public
-          record live at <a href="https://haohe.me/">haohe.me</a>. The main site contains publications,
-          selected engineering and research projects, technical writing, a compact resume, and broader profile context.
-        </p>
-      </section>
-
-      <section class="section-block">
-        <h2 class="section-label">Main Site Entry Points</h2>
-        <div class="card-grid">
-          <a class="card-link" href="https://haohe.me/about/">
-            <span class="card-kicker">About</span>
-            <strong>About He Hao</strong>
-            <p>Primary background, positioning, and the optimization-to-deployment narrative.</p>
+      <section>
+        <h2>Main Site Entry Points</h2>
+        <p>Use the main domain for the current portfolio, research context, publications, technical writing, and resume.</p>
+        <div class="grid">
+          <a class="link-card" href="https://haohe.me/">
+            <small>Main Website</small>
+            <strong>haohe.me</strong>
+            <span>The primary destination for the full portfolio and identity context.</span>
           </a>
-          <a class="card-link" href="https://haohe.me/projects/">
-            <span class="card-kicker">Projects</span>
-            <strong>Selected Projects</strong>
-            <p>Operator-facing platforms, autonomous systems work, and applied engineering builds.</p>
+          <a class="link-card" href="https://haohe.me/publications/">
+            <small>Publications</small>
+            <strong>Research Record</strong>
+            <span>Journal and conference work across optimization, surveillance, and autonomous systems.</span>
           </a>
-          <a class="card-link" href="https://haohe.me/publications/">
-            <span class="card-kicker">Publications</span>
-            <strong>Selected Publications</strong>
-            <p>Optimization, control, autonomous systems, and related research outputs.</p>
+          <a class="link-card" href="https://haohe.me/writing/">
+            <small>Writing</small>
+            <strong>Technical Essays</strong>
+            <span>Engineering notes and systems thinking across autonomy, platforms, and AI software.</span>
           </a>
-          <a class="card-link" href="https://haohe.me/writing/">
-            <span class="card-kicker">Writing</span>
-            <strong>Technical Writing</strong>
-            <p>Project notes, engineering essays, and research-facing technical explanations.</p>
-          </a>
-          <a class="card-link" href="https://haohe.me/resume/">
-            <span class="card-kicker">Resume</span>
-            <strong>Compact Resume</strong>
-            <p>Professional summary, selected work, experience, education, and technical focus.</p>
-          </a>
-          <a class="card-link" href="https://haohe.me/he-hao/">
-            <span class="card-kicker">Identity</span>
-            <strong>Main-site Identity Page</strong>
-            <p>Machine-readable identity signal page on the main domain with rich profile data.</p>
+          <a class="link-card" href="https://haohe.me/resume/">
+            <small>Resume</small>
+            <strong>Professional Summary</strong>
+            <span>Compact profile of research, platform engineering, and applied systems work.</span>
           </a>
         </div>
       </section>
 
-      <section class="section-block">
-        <h2 class="section-label">Profiles and Handles</h2>
-        <div class="list-block">
-          <div class="list-row">
-            <div>
-              <h3>GitHub</h3>
-              <p>HAOHE123 · code, repositories, and selected public project references.</p>
-            </div>
-            <a href="https://github.com/HAOHE123">github.com/HAOHE123</a>
-          </div>
-          <div class="list-row">
-            <div>
-              <h3>LinkedIn</h3>
-              <p>hehao123 · professional profile and public background context.</p>
-            </div>
-            <a href="https://linkedin.com/in/hehao123/">linkedin.com/in/hehao123/</a>
-          </div>
-          <div class="list-row">
-            <div>
-              <h3>Kaggle</h3>
-              <p>hehao111 · applied machine learning competition work and public standing.</p>
-            </div>
-            <a href="https://kaggle.com/hehao111">kaggle.com/hehao111</a>
-          </div>
-          <div class="list-row">
-            <div>
-              <h3>Google Scholar</h3>
-              <p>Publications and citation record across optimization, control, and autonomous systems.</p>
-            </div>
-            <a href="https://scholar.google.com/citations?user=3sP1AOAAAAAJ">Scholar profile</a>
-          </div>
+      <section>
+        <h2>Official Profiles</h2>
+        <p>These are the supporting public profiles associated with the main site.</p>
+        <div class="grid">
+          <a class="link-card" href="https://github.com/HAOHE123" rel="me noopener noreferrer" target="_blank">
+            <small>GitHub</small>
+            <strong>HAOHE123</strong>
+            <span>Source code, repositories, and public engineering artifacts.</span>
+          </a>
+          <a class="link-card" href="https://linkedin.com/in/hehao123/" rel="me noopener noreferrer" target="_blank">
+            <small>LinkedIn</small>
+            <strong>hehao123</strong>
+            <span>Professional profile and current role context.</span>
+          </a>
+          <a class="link-card" href="https://kaggle.com/hehao111" rel="me noopener noreferrer" target="_blank">
+            <small>Kaggle</small>
+            <strong>hehao111</strong>
+            <span>Competition history and applied machine learning record.</span>
+          </a>
+          <a class="link-card" href="https://scholar.google.com/citations?user=3sP1AOAAAAAJ" rel="me noopener noreferrer" target="_blank">
+            <small>Google Scholar</small>
+            <strong>Research Profile</strong>
+            <span>Publication list and citation record.</span>
+          </a>
         </div>
       </section>
 
-      <section class="section-block">
-        <h2 class="section-label">Search Variants</h2>
-        <p class="body-copy small-copy">
-          Supported identity variants associated with this public profile include He Hao, 郝赫, Haohe, HAOHE,
-          He HAO, HeHao, HAOHE123, hehao123, and hehao111. These names and handles point back to the same official
-          public profile cluster centered on <a href="https://haohe.me/">haohe.me</a>, GitHub, LinkedIn, Kaggle,
-          and Google Scholar.
-        </p>
-      </section>
-
-      <footer class="footer-row">
-        <a class="footer-primary" href="https://haohe.me/">Enter the full portfolio at haohe.me</a>
-        <div class="footer-links">
-          <a href="https://haohe.me/projects/">Projects</a>
-          <a href="https://haohe.me/publications/">Publications</a>
-          <a href="https://haohe.me/writing/">Writing</a>
-          <a href="https://github.com/HAOHE123">GitHub</a>
-          <a href="https://linkedin.com/in/hehao123/">LinkedIn</a>
-        </div>
-      </footer>
+      <p class="notice">
+        Primary destination: <a href="https://haohe.me/">https://haohe.me/</a>
+      </p>
     </main>
   </body>
 </html>
-
